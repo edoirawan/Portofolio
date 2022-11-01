@@ -1,0 +1,43 @@
+body {
+  font-family: 'Work Sans', sans-serif;
+  --bs-primary: #1c3dca;
+  --bs-primary-rgb: 28,61,202;
+  --bs-info: #02aaff;
+  --bs-info-rgb: 2,170,255;
+  --bs-dark: #000000;
+  --bs-dark-rgb: 0,0,0;
+  --bs-body-color: var(--bs-highlight-bg);
+  --bs-body-bg: var(--bs-dark);
+  --bs-body-font-weight: 300;
+}
+
+.container {
+  height: 100%;
+  max-width: 980px;
+}
+
+.text-badge {
+  padding: .1em.4em;
+  background: var(--bs-info);
+  color: var(--bs-dark);
+  font-style: italic;
+  border-radius: 10px;
+  border-color: var(--bs-dark);
+}
+
+.banner {
+  background: var(--bs-info);
+  border-radius: 1em;
+  padding: 25px;
+}
+
+.projects {
+}
+
+.container {
+}
+
+footer {
+  background: var(--bs-gray-900);
+}
+
